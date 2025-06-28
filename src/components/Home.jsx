@@ -54,7 +54,7 @@ export default function Home() {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center" data-aos="fade-left">
         <img
-          src="/img/f3c5a772705cb80fbe152aea96cc2514-removebg-preview.png"
+          src="img/f3c5a772705cb80fbe152aea96cc2514-removebg-preview.png"
           alt="Laptop showing code"
           className="w-96 md:w-96 h-auto object-contain"
         />
