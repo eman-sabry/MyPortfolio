@@ -19,21 +19,21 @@ export default function Home() {
             I’m <span className="text-deep-purple-300">Eman Sabry</span>
           </h1>
           <h2 className="text-2xl md:text-4xl font-medium mb-6 drop-shadow-lg">
-            FullStack Web Developer
+            Frontend Web Developer
           </h2>
           
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-5 mb-8">
-            <a data-aos="fade-left" data-aos-delay="1000" href="">
+            <a target="_blank" data-aos="fade-left" data-aos-delay="1000" href="https://www.facebook.com/eman.sabry.94214508?locale=ar_AR">
               <FaFacebook className="text-2xl" />
             </a>
-            <a data-aos="fade-left" data-aos-delay="1000" href="">
+            <a target="_blank"  data-aos="fade-left" data-aos-delay="1000" href="https://www.instagram.com/emily19_8/">
               <FaSquareInstagram className="text-2xl" />
             </a>
-            <a data-aos="fade-left" data-aos-delay="1000" href="">
+            <a target="_blank"  data-aos="fade-left" data-aos-delay="1000" href="https://www.linkedin.com/in/eman-sabry-bb791a2b5/">
               <FaLinkedin className="text-2xl" />
             </a>
-            <a data-aos="fade-left" data-aos-delay="1000" href="">
+            <a target="_blank"  data-aos="fade-left" data-aos-delay="1000" href="https://github.com/eman-sabry">
               <FaGithub className="text-2xl" />
             </a>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center" data-aos="fade-left">
         <img
-          src="/img/f3c5a772705cb80fbe152aea96cc2514-removebg-preview.png"
+          src="img/f3c5a772705cb80fbe152aea96cc2514-removebg-preview.png"
           alt="Laptop showing code"
           className="w-96 md:w-96 h-auto object-contain"
         />

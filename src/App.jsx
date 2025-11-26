@@ -8,13 +8,14 @@ import { Element } from "react-scroll";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 
+
 function App() {
  
  useEffect(() => {
     AOS.init({
-      duration: 1000,     // مدة الحركة
-      once: true,         // تظهر مرة واحدة بس
-      offset: 100,        // يبدأ قبل الوصول بالضبط
+      duration: 1000,     
+      once: true,         
+      offset: 100,        
     });
   }, []);
   return (
@@ -33,7 +34,7 @@ function App() {
       <Element name="Projects">
         <Projects />
       </Element>
-
+  
     
     </div>
 
